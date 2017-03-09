@@ -15,5 +15,5 @@ else
 	exit
 fi
 
-#service dnsmasq restart
+# Make Dnsmasq re-read the hosts file
 pkill -HUP dnsmasq
